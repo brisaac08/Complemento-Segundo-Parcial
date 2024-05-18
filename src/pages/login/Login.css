@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.body-login {
+    background-image: url('../../assets/fondo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-login {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.header-login {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9); 
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.login-logo {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-right: 1200px;
+}
+
+.login-logo:hover {
+    cursor: pointer;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    padding: 40px 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    margin-top: 120px;
+}
+
+.name {
+    color: azure;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.login-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    color: black;
+}
+
+.login-container h2 {
+    color: #23CAEE;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 600; /* Añadido peso de la fuente */
+}
+
+.login-inputs input {
+    height: 45px; 
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.login-inputs input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.login-inputs input:focus {
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(35, 202, 238, 0.7);
+    outline: none;
+}
+
+
+.btn-iniciar-sesion {
+    height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color:#0b97b6;
+    color: white;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.btn-iniciar-sesion:hover {
+    background-color: #23CAEE;
+    cursor: pointer;
+}
+
+
+.login-inputs p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+}
+
+.login-inputs a {
+    color: #23CAEE;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-inputs a:hover {
+    text-decoration: underline;
+    color: #0b97b6;
+}
+
+
+.recuerdame {
+    font-size: 16px;
+    display: flex;
+    color: white;
+    gap: 10px;
+    margin-right: 190px;
+    margin-bottom: 15px;
+}
+
+.recuerdame input {
+    width: 18px;
+    height: 18px;
+}
+
+
+
+
